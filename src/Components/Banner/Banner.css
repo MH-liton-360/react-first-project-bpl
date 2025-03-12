@@ -1,0 +1,9 @@
+.background {
+    background: url('../../assets/bg-shadow.png');
+    background-color: #000;
+
+}
+
+.logo {
+    justify-items: center;
+}
