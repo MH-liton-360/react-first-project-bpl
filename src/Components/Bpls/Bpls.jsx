@@ -34,7 +34,6 @@ const Bpls = () => {
                     ></Bpl>)
                 }
             </div>
-
         </div>
     );
 };
