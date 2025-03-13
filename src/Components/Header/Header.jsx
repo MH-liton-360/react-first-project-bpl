@@ -2,7 +2,8 @@ import CricketLogo from '../../assets/logo.png'
 import { FaCoins } from 'react-icons/fa';
 
 
-const Header = () => {
+const Header = ({ coins }) => {
+
     return (
         <div className='max-w-7xl mx-auto flex justify-between items-center py-5'>
             <div><img src={CricketLogo} alt="" /></div>
@@ -12,7 +13,7 @@ const Header = () => {
                     <li><a href="">Fixture</a></li>
                     <li><a href="">Teams</a></li>
                     <li><a href="">Schedules</a></li>
-                    <div className='flex gap-1'><p>Coin</p>
+                    <div className='flex gap-1 border-2 rounded-md border-amber-100 px-2'><p>{coins} Coin</p>
                         <button><FaCoins></FaCoins></button>
                     </div>
                 </ul>

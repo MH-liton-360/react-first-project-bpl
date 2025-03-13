@@ -6,6 +6,7 @@ import { IoPerson } from "react-icons/io5";
 const Bpl = ({ bpl }) => {
     const { author_image, author_name, country_name, role, batting_position, price } = bpl;
 
+
     return (
         <div >
 
@@ -35,9 +36,6 @@ const Bpl = ({ bpl }) => {
                 <div className='flex justify-between'>
                     <h3 className='font-medium py-1'>Price: ${price} </h3>
                     <button className="btn btn-outline btn-success w-32"><a href="">Choose Player</a></button>
-
-
-
                 </div>
             </div>
         </div>
