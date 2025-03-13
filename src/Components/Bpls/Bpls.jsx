@@ -21,8 +21,8 @@ const Bpls = () => {
                 <h2 className="font-bold text-xl py-10">Available Players</h2>
                 <ul className='flex gap-1'>
 
-                    <button class="btn btn-soft btn-warning items-center">Available</button>
-                    <button class="btn btn-soft btn-warning items-center">Selected</button>
+                    <button className="btn btn-outline btn-success w-32">Available</button>
+                    <button className="btn btn-outline btn-success w-32">Selected</button>
 
                 </ul>
             </div>

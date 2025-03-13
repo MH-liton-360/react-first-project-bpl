@@ -1,110 +1,56 @@
 [
     {
         "id": 1,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Musfiqur Rahim",
-        "country_name": "Australia",
+        "author_image": "https://i.ibb.co/zH7F7cX0/301403-6.webp",
+        "author_name": "Tamim-Iqbal",
+        "country_name": "Bangladesh",
         "role": "Batsman",
         "batting_position": "Opener",
-        "price": 1.5
+        "price": 100000
     },
     {
         "id": 2,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Tamim Iqbal",
-        "country_name": "India",
+        "author_image": "https://i.ibb.co/9m5WpDWG/R-1.jpg",
+        "author_name": "Hafeez",
+        "country_name": "Pakistan",
         "role": "All-rounder",
         "batting_position": "Middle-order",
-        "price": 2.8
+        "price": 150000
     },
     {
         "id": 3,
         "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
         "author_name": "Sakib Al Hasan",
-        "country_name": "England",
-        "role": "Bowler",
-        "batting_position": "Tailender",
-        "price": 1.2
+        "country_name": "Bangladesh",
+        "role": "All-rounder",
+        "batting_position": "Middle-order",
+        "price": 120000
     },
     {
         "id": 4,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Ahmed Rafiq",
-        "country_name": "Pakistan",
+        "author_image": "https://i.ibb.co/TDpZJhb3/kidpaw-soumya-sarkar-2622.jpg",
+        "author_name": "Soumya-Sarkar",
+        "country_name": "Bangladesh",
         "role": "Wicketkeeper",
         "batting_position": "Lower middle-order",
-        "price": 2.0
+        "price": 210000
     },
     {
         "id": 5,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Chris van Zyl",
-        "country_name": "South Africa",
+        "author_image": "https://i.ibb.co/NnLPkVLr/Getty-Images-688893360-e1518000599717.jpg",
+        "author_name": "Mushfiqur Rahim",
+        "country_name": "Bangladesh",
         "role": "Batsman",
-        "batting_position": "No.3",
-        "price": 1.9
+        "batting_position": "Middle-order",
+        "price": 300000
     },
     {
         "id": 6,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Marcus Bailey",
+        "author_image": "https://i.ibb.co/RGCG7JWK/kane-williamson.jpg",
+        "author_name": "kane-williamson",
         "country_name": "New Zealand",
         "role": "All-rounder",
         "batting_position": "Middle-order",
-        "price": 2.5
-    },
-    {
-        "id": 7,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Diego Perera",
-        "country_name": "Sri Lanka",
-        "role": "Bowler",
-        "batting_position": "Lower order",
-        "price": 1.0
-    },
-    {
-        "id": 8,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Nathan Rodriguez",
-        "country_name": "West Indies",
-        "role": "Batsman",
-        "batting_position": "Opener",
-        "price": 1.7
-    },
-    {
-        "id": 9,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Sean O’Reilly",
-        "country_name": "Ireland",
-        "role": "Wicketkeeper",
-        "batting_position": "Middle-order",
-        "price": 1.3
-    },
-    {
-        "id": 10,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Takashi Mori",
-        "country_name": "Japan",
-        "role": "Bowler",
-        "batting_position": "Tailender",
-        "price": 0.9
-    },
-    {
-        "id": 11,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Kevin Mendes",
-        "country_name": "USA",
-        "role": "All-rounder",
-        "batting_position": "No.4",
-        "price": 1.6
-    },
-    {
-        "id": 12,
-        "author_image": "https://i.ibb.co/Mxc8jyph/OIP.jpg",
-        "author_name": "Ravi Patel",
-        "country_name": "Canada",
-        "role": "Batsman",
-        "batting_position": "Opener",
-        "price": 1.4
+        "price": 250000
     }
 ]

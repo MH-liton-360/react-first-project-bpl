@@ -33,8 +33,10 @@ const Bpl = ({ bpl }) => {
                     <h3>{batting_position} </h3>
                 </div>
                 <div className='flex justify-between'>
-                    <h3 className='font-medium py-1'>{price} </h3>
-                    <button className='bg-blue-300 rounded-sm px-2'><a href="">Choose Player</a></button>
+                    <h3 className='font-medium py-1'>Price: ${price} </h3>
+                    <button className="btn btn-outline btn-success w-32"><a href="">Choose Player</a></button>
+
+
 
                 </div>
             </div>

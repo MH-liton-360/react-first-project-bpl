@@ -3,16 +3,16 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div>
+        <div className='pt-10'>
 
 
-            <footer className='bg-black py-30'>
+            <footer className='bg-black py-16'>
 
                 <div className='CricketLogo py-10'>
                     <img src={CricketLogo} alt="" />
                 </div>
 
-                <div className='max-w-7xl mx-auto flex justify-between gap-12'>
+                <div className='max-w-7xl mx-auto flex justify-between gap-12 py-10 border-b'>
                     <div>
                         <h2 className='text-white py-3'>About US</h2>
                         <p className='text-sm w-56 text-emerald-600'>We are a passionate team dedicated to providing the best services to our customers.</p>
@@ -44,6 +44,9 @@ const Footer = () => {
                             </fieldset>
                         </form>
                     </div>
+                </div>
+                <div>
+                    <p className='text-emerald-600 text-center py-2'>@2025 Your Company All Rights Reserved.</p>
                 </div>
             </footer >
 
