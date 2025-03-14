@@ -3,12 +3,25 @@ import { FaFlag } from "react-icons/fa6";
 import { IoPerson } from "react-icons/io5";
 
 
-const Bpl = ({ bpl }) => {
+const Bpl = ({ bpl, coins, setCoins, setSelected }) => {
     const { author_image, author_name, country_name, role, batting_position, price } = bpl;
 
 
+
+    const handleChoosePlayer = (bpl) => {
+        setSelected(prevSelected => [...prevSelected, bpl]);
+
+        if (coins >= price) {
+            const upDatedCoins = (coins - price)
+            setCoins(upDatedCoins);
+        } else {
+            alert("Not enough coins!");
+        }
+    };
+
+
     return (
-        <div >
+        <div>
 
             <div className="Dream">
                 <img className='rounded-xl h-64 w-full' src={author_image} alt="" />
@@ -35,7 +48,7 @@ const Bpl = ({ bpl }) => {
                 </div>
                 <div className='flex justify-between'>
                     <h3 className='font-medium py-1'>Price: ${price} </h3>
-                    <button className="btn btn-outline btn-success w-32"><a href="">Choose Player</a></button>
+                    <button className="btn btn-outline btn-success w-32" onClick={() => { handleChoosePlayer(bpl) }}>Choose Player</button>
                 </div>
             </div>
         </div>

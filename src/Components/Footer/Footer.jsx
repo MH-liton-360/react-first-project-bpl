@@ -3,16 +3,16 @@ import './Footer.css'
 
 const Footer = () => {
     return (
-        <div className='pt-10'>
+        <div>
 
 
-            <footer className='bg-black py-16'>
+            <footer className='bg-black pt-8'>
 
-                <div className='CricketLogo py-10'>
+                <div className='CricketLogo py-8'>
                     <img src={CricketLogo} alt="" />
                 </div>
 
-                <div className='max-w-7xl mx-auto flex justify-between gap-12 py-10 border-b'>
+                <div className='max-w-7xl mx-auto flex justify-between gap-12 py-2 border-b'>
                     <div>
                         <h2 className='text-white py-3'>About US</h2>
                         <p className='text-sm w-56 text-emerald-600'>We are a passionate team dedicated to providing the best services to our customers.</p>

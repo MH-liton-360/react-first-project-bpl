@@ -1,0 +1,13 @@
+.Transition {
+    background: url('../../assets/shadow.avif');
+    background-color: whitesmoke;
+    border-radius: 15px;
+    justify-items: center;
+
+}
+
+.extra {
+    border-bottom: 2px solid rgb(76, 248, 248);
+    background-color: rgba(245, 245, 245, 0.23);
+    box-shadow: burlywood;
+}

@@ -8,9 +8,7 @@ const Banner = ({ increaseCoins }) => {
             <div className='text-center'>
                 <p className='text-white font-bold text-3xl'>Assemble Our Ultimate Dream 11 Cricket Team</p>
                 <p className='text-blue-400 py-3'>Beyond Boundaries Beyond Limits</p>
-                <button className="btn btn-soft btn-warning items-center" onClick={() => {
-                    increaseCoins();
-                }}>Warning</button>
+                <button className="btn btn-soft btn-warning items-center" onClick={increaseCoins}>Warning</button>
             </div>
         </div>
     );
